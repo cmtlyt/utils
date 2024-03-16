@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      span {
+        height: 100px;
+        background-color: pink;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root">
+      <p>本节点不是最深层级不会输出</p>
+      <div>
+        <span>本节点不是最深层级不会输出</span>
+        <div>
+          <h3>最深层级并列多个时，输出第一个</h3>
+          <h4>本节点是并列最深但不是第一个，所以不输出</h4>
+        </div>
+      </div>
+    </div>
+  </body>
+  <!-- <script>
+    var a = 123;
+    let b = 1234;
+    const c = 12345;
+  </script> -->
+  <script src="./test2.js"></script>
+</html>

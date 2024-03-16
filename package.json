@@ -1,0 +1,46 @@
+{
+  "name": "@cmtlyt/utils",
+  "version": "0.1.0",
+  "description": "cmtlyt utils library",
+  "main": "dist/index.js",
+  "types": "types",
+  "type": "module",
+  "module": "dist/index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/index.js"
+    },
+    "./*": {
+      "import": "./dist/*"
+    }
+  },
+  "scripts": {
+    "build": "vite build"
+  },
+  "keywords": [
+    "cmtlyt",
+    "utils",
+    "library"
+  ],
+  "author": {
+    "name": "cmtlyt",
+    "email": "cmtlyt@163.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "glob": "^10.3.10",
+    "vite": "^5.1.6"
+  },
+  "files": [
+    "dist",
+    "types"
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "homepage": ""
+}
